@@ -103,9 +103,9 @@
         layer_4 {
             bindings = <
 &trans  &kp N1  &kp N2  &kp W  &kp E  &kp R    &bl BL_TOG  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp A  &kp S  &kp D  &kp F        &bl BL_INC  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &kp B  &kp M        &bl BL_DEC  &trans  &trans  &trans  &trans  &trans
-                        &kp LEFT_ALT  &kp LEFT_SHIFT  &kp SPACE            &trans      &trans  &trans
+&kp LEFT_ALT  &kp LCTRL  &kp A  &kp S  &kp D  &kp F        &bl BL_INC  &trans  &trans  &trans  &trans  &trans
+&to 0  &trans  &trans  &trans  &kp B  &kp M        &bl BL_DEC  &trans  &trans  &trans  &trans  &trans
+                        &kp TAB  &kp LEFT_SHIFT  &kp SPACE            &trans      &trans  &trans
             >;
         };
     };
