@@ -93,7 +93,7 @@
 
         layer_3 {
             bindings = <
-&KP_NUMLOCK &kp UP_ARROW     &trans              &trans           &trans  &bt BT_CLR_ALL    &trans  &trans  &trans  &trans  &trans  &trans
+&kp NUMLOCK &kp UP_ARROW     &trans              &trans           &trans  &bt BT_CLR_ALL    &trans  &trans  &trans  &trans  &trans  &trans
  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW &trans   &trans  &bl BL_TOG    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans          &trans          &trans           &trans  &bt BT_NXT    &trans  &trans  &trans  &trans  &trans  &trans
                                         &trans           &trans  &trans    &trans  &trans  &trans
